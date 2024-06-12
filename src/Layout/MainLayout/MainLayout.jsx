@@ -4,9 +4,10 @@ import Navbar from "../../components/Navbar/Navbar"
 const MainLayout = () => {
     return (
         <>
-            <header className="container">
+            <header className=" mb-[14.36px]">
                 <Navbar/>
             </header>
+            
             <main className="">
                 <Outlet/>
             </main>
