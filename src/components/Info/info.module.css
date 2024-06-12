@@ -1,0 +1,11 @@
+/* styles.css */
+.bgImg::before {
+    content: "";
+    position: absolute;
+    top: 4px;
+    left: -36px;
+    right: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

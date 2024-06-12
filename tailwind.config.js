@@ -6,6 +6,10 @@ export default {
   ],
   theme: {
     extend: {
+      borderRadius: {
+        '50': '50%',
+      },
+
       screens: {
         sm: '600px',
         md: '768px',
@@ -27,8 +31,7 @@ export default {
       },
 
       fontFamily: {
-        primary: 'serif',
-        sec: ['TT TANK', 'sans-serif']
+        primary: ['TT TANK', 'sans-serif']
       }
     },
 

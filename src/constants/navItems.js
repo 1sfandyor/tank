@@ -1,25 +1,19 @@
 import {v4 as uuidv4} from 'uuid';
+import setting from '../assets/icons/gear.svg'
+import speed from '../assets/icons/speedometer.svg'
 
 export const navItems = [
     {
         id: uuidv4(),
-        name: 'Home',
-        path: 'home'
+        text: 'Записаться на сервис',
+        path: '#',
+        img: setting
     },
     {
         id: uuidv4(),
-        name: 'About',
-        path: 'about'
-    },
-    {
-        id: uuidv4(),
-        name: 'Contact',
-        path: 'contact'
-    },
-    {
-        id: uuidv4(),
-        name: 'Features',
-        path: 'features'
-    },
+        text: 'Тест-драйв',
+        path: '#',
+        img: speed
+    }
     
 ]
