@@ -1,6 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Chocolate+Classical+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@font-face {
+    font-family: 'TT TANK';
+    src:url('./assets/fonts/TTTANK-Lt.woff2') format('woff2'),
+        url('./assets/fonts/TTTANK-Lt.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'TT TANK';
+    src:url('./assets/fonts/TTTANK-Md.woff2') format('woff2'),
+        url('./assets/fonts/TTTANK-Md.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT TANK';
+    src:url('./assets/fonts/TTTANK-Bd.woff2') format('woff2'),
+        url('./assets/fonts/TTTANK-Bd.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 
 @layer base{
     html{
@@ -8,7 +42,7 @@
     }
 
     body{
-        @apply flex flex-col bg-white dark:bg-[#121212] text-black dark:text-white p-0 text-base font-normal h-full;
+        @apply flex flex-col bg-white dark:bg-[#121212] text-black dark:text-white p-0 text-base font-normal h-full font-primary;
     }
 
     #root{
