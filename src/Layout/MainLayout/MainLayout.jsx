@@ -3,6 +3,7 @@ import Navbar from "../../components/Navbar/Navbar"
 import Counter from "../../components/Counter/Counter"
 import { Features } from "../../components/Features/Features"
 import { Booking } from "../../components/Booking/Booking"
+import { CarsInfoDetail } from "../../components/CarsInfoDetail/CarsInfoDetail"
 
 const MainLayout = () => {
     return (
@@ -17,7 +18,9 @@ const MainLayout = () => {
                     <Counter/>
                     <Features/>
                     <Booking/>
+
                 </div>
+                <CarsInfoDetail/>
 
             </main>
             <footer className="text-center container">

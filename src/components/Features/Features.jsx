@@ -7,7 +7,7 @@ export const Features = () => {
         {
           features.map(feature => {
             return(
-              <div className="flex items-center border rounded-xl mb-2.5 last:mb-0 lg:mb-0 p-5 sm:justify-center lg:justify-start lg:items-start lg:mr-3 lg:w-1/3">
+              <div className="flex items-center border rounded-xl mb-2.5 last:mb-0 lg:mb-0 p-5 sm:justify-center lg:justify-start lg:items-start lg:mr-3 lg:w-1/3" key={feature.id}>
                 <div className="max-w-6 md:w-14 mr-6 lg:mr-4">
                   <img className="w-full " src={feature.img} alt="" />
                 </div>
