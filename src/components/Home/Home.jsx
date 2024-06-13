@@ -13,16 +13,13 @@ const Home = () => {
                     <div className='md:flex md:flex-col md:items-start  md:justify-center'>
                         <p className='2xl:text-3xl 2xl:mb-2.5 2xl:font-medium'>Улучшим любые условия</p>
                         <h1 className='lg:text-6xl lg:font-bold lg:mb-2.5'> TANK 500</h1>
-                        <p className='lg:text-3xl lg:font-medium lg:mb-10'>Осталось всего 5 автомобилей!</p>
+                        <p className='lg:text-3xl lg:font-medium mb-10 lg:mb-10'>Осталось всего 5 автомобилей!</p>
                         <Button className={`bg-lightOrange text-black`} px={`pl-[30px] pr-[60px]`} py={`py-[18px]`}>
                             Получить предложение
                         </Button>
                     </div>
                 </div>
             </section>
-
-            
-            <Counter/>
         </>
     )
 }
