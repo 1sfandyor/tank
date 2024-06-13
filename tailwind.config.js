@@ -11,17 +11,17 @@ export default {
       },
 
       backgroundImage: {
-        'hero': 'url("./src/assets/hero_bg.jpeg")',
-        'heroRetina': 'url("./src/assets/hero_bg@2x.jpeg")',
+        'hero': 'url("/src/assets/hero_bg.jpeg")',
+        'heroRetina': 'url("/src/assets/hero_bg@2x.jpeg")',
 
-        'heroLarge': 'url("./src/assets/hero_bg_large.jpeg")',
-        'heroLargeRetina': 'url("./src/assets/hero_bg_large@2x.jpeg")',
+        'heroLarge': 'url("/src/assets/hero_bg_large.jpeg")',
+        'heroLargeRetina': 'url("/src/assets/hero_bg_large@2x.jpeg")',
 
-        'heroTablet': 'url("./src/assets/hero_bg_tablet.jpeg")',
-        'heroTabletRetina': 'url("./src/assets/hero_bg_tablet@2x.jpeg")',
+        'heroTablet': 'url("/src/assets/hero_bg_tablet.jpeg")',
+        'heroTabletRetina': 'url("/src/assets/hero_bg_tablet@2x.jpeg")',
 
-        'heroMobile': 'url("./src/assets/hero_bg_mobile.jpeg")',
-        'heroMobileRetina': 'url("./src/assets/hero_bg_mobile@2x.jpeg")',
+        'heroMobile': 'url("/src/assets/hero_bg_mobile.jpeg")',
+        'heroMobileRetina': 'url("/src/assets/hero_bg_mobile@2x.jpeg")',
       },
 
       screens: {
