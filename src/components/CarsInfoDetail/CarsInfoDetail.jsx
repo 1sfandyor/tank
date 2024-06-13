@@ -20,9 +20,17 @@ import tank500_control from "../../assets/slider_tank_500_control_thumb.jpeg";
 import tank500_inside from "../../assets/slider_tank_500_inside_thumb.jpeg";
 
 
+import tank_300_red from '../../assets/cars/tank300-red.png'
+import tank_300_orange from '../../assets/cars/tank300-orange.png'
+import tank_300_gray from '../../assets/cars/tank300-gray.png'
+import tank_300_black from '../../assets/cars/tank300-black.png'
+import tank_300_white from '../../assets/cars/tank300-white.png'
 
 
-
+import tank_500_gold from '../../assets/cars/tank500-gold.png'
+import tank_500_gray from '../../assets/cars/tank500-gray.png'
+import tank_500_black from '../../assets/cars/tank500-black.png'
+import tank_500_white from '../../assets/cars/tank500-white.png'
 
 export const CarsInfoDetail = () => {
 
@@ -41,13 +49,14 @@ export const CarsInfoDetail = () => {
     '#fff'
 ]
 
-  const tank300_Gallery = [
-    tank300_front,
-    tank300_back,
-    tank300_side,
-    tank300_control,
-    tank300_inside,
-  ]
+const tank300_Gallery = [
+  tank300_front,
+  tank300_back,
+  tank300_side,
+  tank300_control,
+  tank300_inside,
+]
+
 
   const tank500_Gallery = [
     tank500_front,
@@ -55,6 +64,24 @@ export const CarsInfoDetail = () => {
     tank500_side,
     tank500_control,
     tank500_inside,
+  ]
+
+
+
+
+  const tank300_color = [
+    tank_300_red,
+    tank_300_orange,
+    tank_300_gray,
+    tank_300_black,
+    tank_300_white,
+  ]
+
+  const tank500_color = [
+    tank_500_gold,
+    tank_500_gray,
+    tank_500_black,
+    tank_500_white,
   ]
 
 
@@ -95,6 +122,7 @@ export const CarsInfoDetail = () => {
         features={features}
         showcaseThumb={tank300_Gallery}
         bg='#1c2121'
+        carColor={tank300_color}
       />
       
       
@@ -107,6 +135,7 @@ export const CarsInfoDetail = () => {
         features={features}
         showcaseThumb={tank500_Gallery}
         bg="#252C2C"
+        carColor={tank500_color}
       />
     </section>
   )
