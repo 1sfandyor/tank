@@ -15,7 +15,8 @@ const Home = () => {
                         <h1 className='lg:text-6xl lg:font-bold lg:mb-2.5'> TANK 500</h1>
                         <p className='lg:text-3xl lg:font-medium mb-10 lg:mb-10'>Осталось всего 5 автомобилей!</p>
                         <Button className={`bg-lightOrange text-black`} px={`pl-[30px] pr-[60px]`} py={`py-[18px]`}>
-                            Получить предложение
+                            
+                            <span className="md:text-nowrap after:inline-block after:w-4 after:h-4 after:left-5 after:top-1 after:relative after:bg-no-repeat after:bg-[url('/src/assets/icons/right.svg')]">Получить предложение</span>
                         </Button>
                     </div>
                 </div>

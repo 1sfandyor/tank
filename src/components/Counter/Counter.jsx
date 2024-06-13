@@ -58,9 +58,9 @@ const Counter = () => {
         {Object.keys(timeLeft).map((interval) => (
           <div key={interval} className="text-center relative flex xs:mx-1 lg:my-1.5 2xl:my-2.5">  
             <svg className="w-[70px] h-[70px] rotate-[270deg]">
-              <circle className={style.counter} cy={36} cx={36} r={30} strokeWidth={10}></circle>
+              <circle className={`${style.counter} lg:!stroke-darkGray`} cy={36} cx={36} r={30} strokeWidth={10}></circle>
               <circle
-                className={` md:!stroke-lightOrange`}
+                className={` lg:!stroke-lightOrange `}
                 ref={refs[interval]}
                 id={interval}
                 cy={36}
@@ -83,7 +83,9 @@ const Counter = () => {
           ))}
         </div>
 
-        <Button className={`bg-lightOrange text-black text-sm sm:w-auto`} py={`py-5`} px={`px-8`} >Узнать цену с выгодами</Button>
+        <Button className={`bg-lightOrange text-black text-sm sm:w-auto`} py={`py-5`} px={`px-8`} >
+          <span className="md:text-nowrap after:inline-block after:w-4 after:h-4 after:left-5 after:top-1 after:relative after:bg-no-repeat after:bg-[url('/src/assets/icons/right.svg')]">Узнать цену с выгодами</span>
+          </Button>
       </div>
   );
 };

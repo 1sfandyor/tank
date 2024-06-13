@@ -26,14 +26,20 @@ import tank500_inside from "../../assets/slider_tank_500_inside_thumb.jpeg";
 
 export const CarsInfoDetail = () => {
 
-  const colors = [
-      '#b0a798',
+  const colors1 = [
       '#ef2929',
       '#df4c30',
       '#c6c9ce',
       '#000',
       '#fff'
   ]
+
+  const colors2 = [
+    '#b0a798',
+    '#c6c9ce',
+    '#000',
+    '#fff'
+]
 
   const tank300_Gallery = [
     tank300_front,
@@ -83,7 +89,7 @@ export const CarsInfoDetail = () => {
       <CarsInfo 
         img={tank300} 
         gallery={tank300_Gallery}
-        color={colors} 
+        color={colors1} 
         title="TANK 300" 
         info="Выгода по Trade-In до 450 000 ₽"
         features={features}
@@ -94,7 +100,7 @@ export const CarsInfoDetail = () => {
       
       <CarsInfo 
         img={tank500}
-        color={colors}
+        color={colors2}
         gallery={tank500_Gallery}
         title="TANK 500"
         info="Выгода до 700 000 ₽"

@@ -4,6 +4,7 @@ import { Info } from "../Info/Info";
 import burger from '../../assets/icons/menu.svg';
 import call from  '../../assets/icons/calling.svg';
 import close from  '../../assets/icons/close.svg';
+import loc from '/src/assets/icons/solidLoc.svg'
 import { useState } from 'react';
 
 
@@ -25,9 +26,10 @@ const Navbar = () => {
 
                 <div className={ 'flex items-center justify-between md:justify-start w-full relative'}>
                     <div className="flex flex-col md:items-start ">
-                    <span className="hidden lg:block text-gray lg:text-[11px] lg:font-medium mb-[11.51px] lg:mb-0 lg:w-[335px]">
-                            Ярославское шоссе, владение 2 В, строение 3 (МКАД, 95 км)
-                        </span>
+                        <div className='hidden lg:flex'>
+                            <img className='mr-2' src={loc} alt="" />
+                            <span className=" text-gray lg:text-[11px] lg:font-medium mb-[11.51px] lg:mb-0 lg:w-[335px]">Ярославское шоссе, владение 2 В, строение 3 (МКАД, 95 км)</span>
+                        </div>
                         <div className="flex flex-col lg:flex-col 2xl:flex-row md:items-center md:justify-center ">
                             <h2 className='text-sm mb-[3.51px] font-medium lg:mr-10 lg:text-3xl md:font-bold'>АВТОРУСЬ TANK <span className='md:hidden'>Лосиный Остров</span></h2>
                             <p className='text-xs lg:text-lg font-light text-gray lg:text-white'>Официальный дилер</p>

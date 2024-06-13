@@ -20,7 +20,7 @@ export const CarsInfo = ({img, gallery, color, title, info, features, showcaseTh
           {
             color.map((item, i) => {
               return(
-                item != '#b0a798' && <li className={`w-7 h-7 rounded-full block mr-3 last:mr-0 xl:mr-0 `} style={{ backgroundColor: item }} key={1}></li> 
+                <li className={`w-7 h-7 rounded-full block mr-3 last:mr-0 xl:mr-0 `} style={{ backgroundColor: item }} key={1}></li>
               )
             })
           }
@@ -36,9 +36,15 @@ export const CarsInfo = ({img, gallery, color, title, info, features, showcaseTh
             <div className="bg-error text-white text-base font-medium px-11 rounded-xl   mb-6 text-center lg:self-start xl:mb-10">Ограниченное предложение!</div>
           </div>
           <div className="w-full ">
-            <Button className={`bg-lightOrange text-black mb-2.5 lg:w-full`}>Узнать стоимость по акции</Button>
-            <Button className={`bg-transparent border-[1px] mb-2.5 border-lightOrange text-white lg:w-full`}>Тест-драйв</Button>
-            <Button className={`bg-transparent border-[1px] mb-6 border-lightOrange text-white lg:w-full`}>Рассчитать кредит</Button>
+            <Button className={`bg-lightOrange text-black mb-2.5 lg:w-full`}>
+              <span className="md:text-nowrap after:inline-block after:w-4 after:h-4 after:left-5 after:top-1 after:relative after:bg-no-repeat after:bg-[url('/src/assets/icons/right.svg')]">Узнать стоимость по акции</span>
+              </Button>
+            <Button className={`bg-transparent border-[1px] mb-2.5 border-lightOrange text-white lg:w-full`}>
+              <span className="md:text-nowrap after:inline-block after:w-4 after:h-4 after:left-5 after:top-1 after:relative after:bg-no-repeat after:bg-[url('/src/assets/icons/rightWhite.svg')]">Тест-драйв</span>
+              </Button>
+            <Button className={`bg-transparent border-[1px] mb-6 border-lightOrange text-white lg:w-full`}>
+              <span className="md:text-nowrap after:inline-block after:w-4 after:h-4 after:left-5 after:top-1 after:relative after:bg-no-repeat after:bg-[url('/src/assets/icons/rightWhite.svg')]">Рассчитать кредит</span>
+              </Button>
           </div>
         </div>
       </div>

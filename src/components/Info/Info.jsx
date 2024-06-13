@@ -32,7 +32,7 @@ export const Info = ({showMenu}) => {
                         </ul>
 
 
-                        <Button className={`bg-lightOrange text-sm font-medium leading-[110%] mb-11 md:mb-0`} px={`px-8`} py={`py-3.5`}>
+                        <Button className={`bg-lightOrange text-sm text-black font-medium leading-[110%] mb-11 md:mb-0`} px={`px-8`} py={`py-3.5`}>
                             <span className={`md:text-nowrap before:inline-block before:w-4 before:h-4 before:-left-3 before:relative before:bg-no-repeat before:bg-[url('/src/assets/icons/incomingCall.svg')]  ${style.bgImg}`}>
                                 Заказать звонок
                             </span>
