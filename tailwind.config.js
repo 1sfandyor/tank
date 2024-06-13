@@ -29,6 +29,7 @@ export default {
         sm: '600px',
         md: '768px',
         lg: '984px',
+        xlg: '1080px',
         xl: '1300px',
         '2xl': '1496px',
       },
