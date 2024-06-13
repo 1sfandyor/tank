@@ -17,7 +17,7 @@ const Navbar = () => {
     }
 
     return (
-        <nav className={showMenu ? 'container md:px-5 flex items-center justify-between' : 'mx-auto px-4 bg-black flex-col absolute w-full h-full'}>
+        <nav className={showMenu ? 'container md:px-5 flex items-center justify-between' : 'mx-auto px-4 bg-black flex-col absolute w-full h-full z-10'}>
             
             {/* IMG &  */}
             <div className={`flex items-center  justify-between w-full`}>
